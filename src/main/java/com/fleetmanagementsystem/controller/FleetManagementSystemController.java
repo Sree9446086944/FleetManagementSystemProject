@@ -15,5 +15,4 @@ public class FleetManagementSystemController {
 	private String profile() {
 		return "users-profile";  //return index.html page
 	}
-	//document everything in Fleet file
 }
