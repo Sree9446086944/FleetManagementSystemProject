@@ -11,8 +11,13 @@ public class FleetManagementSystemController {
 		return "index";  //return index.html page
 	}
 	
-	@GetMapping("/profile")
+	@GetMapping("/index2")
 	private String profile() {
-		return "users-profile";  //return index.html page
+		return "index2";  //return index2.html page
+	}
+	
+	@GetMapping("/hr")
+	private String hr() {
+		return "/hr/index";  //return index.html page of hr folder
 	}
 }
